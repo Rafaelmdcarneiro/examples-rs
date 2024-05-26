@@ -1,9 +1,7 @@
-rust-examples [![Open HUB statistics](https://www.openhub.net/p/rust-examples/widgets/project_thin_badge.gif)](https://www.openhub.net/p/rust-examples/)
+examples-rs
 =============
 
-[![Build Status](https://app.travis-ci.com/eliovir/rust-examples.svg?branch=master)](https://app.travis-ci.com/github/eliovir/rust-examples)
-
-[Rust-examples](https://github.com/eliovir/rust-examples) is a repository to
+[Rust-examples](https://github.com/rafaelmdcarneiro/examples-rs) is a repository to
 gather example codes from tutorial and other documentations of
 [Rust](http://www.rust-lang.org/) into files, ready to compile.
 
@@ -75,8 +73,8 @@ If you encounter problems, make sure you have the right version before creating 
 The simplest way to build **rust-examples** is to do a clone and use ``make`` to compile:
 
 
-    git clone https://github.com/eliovir/rust-examples
-    cd rust-examples
+    git clone https://github.com/rafaelmdcarneiro/examples-rs
+    cd examples-rs
     make
 
 To run tests and benchmarks (benchmarks need Nightly):
@@ -90,7 +88,7 @@ To get help on commands:
 
 ## Contributing
 
-1. Fork it (`git clone https://github.com/eliovir/rust-examples`)
+1. Fork it (`git clone https://github.com/rafaelmdcarneiro/examples-rs`)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Make your changes, and add tests for them
 4. Test your changes (`make test`)
