@@ -1,0 +1,51 @@
+[package]
+
+name = "rust-examples"
+version = "0.0.1"
+authors = ["Eliovir <eliovir@gmail.com>"]
+
+[dependencies.inifile]
+path = "inifile"
+
+[dependencies]
+getopts = "0.2.21"
+rand = "0.8.5"
+
+[[bin]]
+name = "api-getopts"
+path = "api-getopts.rs"
+
+[[bin]]
+name = "api-rand"
+path = "api-rand.rs"
+
+[[bin]]
+name = "book-3_1-guessing_game"
+path = "book-3_1-guessing_game.rs"
+
+[[bin]]
+name = "design_pattern-state"
+path = "design_pattern-state.rs"
+
+[[bin]]
+name ="fibonacci"
+path = "fibonacci.rs"
+
+[[bin]]
+name = "find_max"
+path = "find_max.rs"
+
+[[bin]]
+name = "finite-state-machine"
+path = "finite-state-machine.rs"
+
+[[bin]]
+name = "tutorial-tasks-02_3-arc"
+path = "tutorial-tasks-02_3-arc.rs"
+
+[[bin]]
+name = "tutorial-04_2-pattern-matching"
+path = "tutorial-04_2-pattern-matching.rs"
+
+[features]
+nightly = []
