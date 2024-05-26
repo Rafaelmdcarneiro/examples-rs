@@ -1,7 +1,7 @@
 examples-rs
 =============
 
-[Rust-examples](https://github.com/rafaelmdcarneiro/examples-rs) is a repository to
+[examples-rs](https://github.com/rafaelmdcarneiro/examples-rs) is a repository to
 gather example codes from tutorial and other documentations of
 [Rust](http://www.rust-lang.org/) into files, ready to compile.
 
